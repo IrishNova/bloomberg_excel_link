@@ -32,7 +32,7 @@ def builder(sn, tk):
         col = f"{letter[i]}1"
         ws[col] = f'=BDH("{tk[i]} US EQUITY", "NET_INCOME", "01/01/1950", "11/23/2023" )'
 
-    wb.save(f"/Users/ryanmoloney/Desktop/Furvus_Research/Code/bloomberg_integration/raw_spreadsheets/{sn}.xlsx")
+    wb.save(f"/path/{sn}.xlsx")
     print(f"\n{sn} created\n--------------------")
 
 
